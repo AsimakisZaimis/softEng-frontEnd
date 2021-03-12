@@ -4,18 +4,14 @@ import { render } from "react-dom";
 import { Col, Divider, Row, Table } from 'antd';
 import 'antd/dist/antd.css';
 
-export default class Invoice extends React.Component {
-
-    render() {
-        return (
-                        
+export default function Invoice()  {
+        return (                                  
             <div style={{ padding: 20 }}>
                 <Row>
                     <Col>
                         <Divider>Invoice</Divider>
                     </Col>
                 </Row>
-
                 <Row gutter={24} style={{ marginTop: 32 }}>
                     <Col span={8}>
                         <h3>Eco Haya</h3>
@@ -100,5 +96,3 @@ export default class Invoice extends React.Component {
             </div>
         );
     };
-}
-render(<Invoice />, document.getElementById("root"));
