@@ -39,7 +39,7 @@ const pieOptions = {
     // },
     fontName: "Roboto"
   };
-export default  class PieChart extends React.Component {
+export default class PieChart extends React.Component {
     state = {
       chartImageURI: ""
     };

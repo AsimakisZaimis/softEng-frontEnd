@@ -1,6 +1,14 @@
+
 import React from 'react';
 import '../../App.css';
+import Invoice from './Invoice';
 
 export default function Bills() {
-  return <h1 className='bills'>ΕΚΔΟΣΗ ΠΕΡΙΟΔΙΚΟΥ ΛΟΓΑΡΙΑΣΜΟΥ</h1>;
+    return (
+        <div className='bills'>
+            <h1 className='bills'>ΕΚΔΟΣΗ ΠΕΡΙΟΔΙΚΟΥ ΛΟΓΑΡΙΑΣΜΟΥ</h1>
+            <Invoice></Invoice>
+        </div>
+
+    );
 }

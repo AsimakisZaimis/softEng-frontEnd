@@ -3,7 +3,7 @@ import '../../App.css';
 import '../pages/PieChart';
 import Chart from "react-google-charts";
 import ReactDOM from "react-dom";
-import PieChart from '../pages/PieChart';
+import PieChart from '../pages/PieChart.js';
 
 
 export default function Statistics() {
